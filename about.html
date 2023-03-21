@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>  
+<head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title> IBSMA Official Website </title>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1b6b5b61bb.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+    <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav> 
+            <h1>About Us</h1>
+            
+</section>
+
+        <!-----ABOUT US CONTENT PAGE----->
+<section class="about-us">
+
+    <div class="row">
+    <div class="about-col">
+        <h1>Quality Education for all IBSMAnians</h1>
+        <p>Making website is now one of the easiest thing in the world. You just need to learn HTML, CSS,Javascript and you are good to go.
+            Making website is now one of the easiest thing in the world. You just need to learn HTML, CSS,Javascript and you are good to go.</p>
+        <a href="" class="hero-btn green-btn">EXPLORE NOW</a>
+    </div>
+    <div class="about-col">
+        <img src="images/311488533_542755991183771_8100137398724821386_n.jpg">
+         </div>
+    </div>
+
+</section>
+
+
+
+
+<!------FOOTER------->
+<section class="footer">
+    <h4>About Us:</h4>
+    <p>For more infos please contact us with the <br>following social media accounts. Click the icons</p>
+    <div class="icons">
+    
+    </div>
+    <div class="social-links">
+        <a href="https://www.facebook.com/IBSMAnianAKO?mibextid=ZbWKwL" target="_blank">
+            <i class="fa-brands fa-square-facebook"></i>
+        </a>
+        <a href="https://mail.google.com/mail/u/0/#search/ibsmainc2003%40gmail.com?compose=new" target="_blank">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+        
+    </div>
+    </div>
+</section>
+
+
+
+
+
+
+        
+<!----COMMAND PARA SA MENU AND CLOSE ICON---->
+<script>
+
+    var navLinks = document.getElementById("navLinks"); 
+    function showMenu(){
+        navLinks.style.right ="0";
+    }
+    function hideMenu(){
+        navLinks.style.right ="-200px";
+    }
+</script>
+
+    </body>
+</html>
+
