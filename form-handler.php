@@ -4,7 +4,7 @@ $visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
 $message = $_POST['message'];
 
-$email_from = 'info@ibsma1.000webhostapp.com';
+$email_from = 'ibsmaofficial.netlify.app';
 
 $email_subject = 'New Form Sumission';
 
